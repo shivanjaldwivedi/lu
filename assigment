@@ -1,0 +1,7 @@
+altitude=int(input("you need to land"))
+if altitude==3000:
+      print("which is safe landing")
+elif 3000<altitude<=6000:
+      print("try to landing")
+else:
+    print("go around")
